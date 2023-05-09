@@ -60,12 +60,14 @@ namespace agenda_simples_t5
 
         public override string ToString()
         {
-            string saída = String.Empty
+            string saída = String.Empty;
             saída += String.Format("{0}, {1}", PrimeiroNome, Sobrenome);
             saída += String.Format("{0}-{1}-{2}",
                 Telefone.Substring(0, 1), 
                 Telefone.Substring(2, 6), 
-                Telefone.Substring(7, 10));
+                Telefone.Substring(7, 10)
+                );
         }
     }
+        
 }
